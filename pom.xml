@@ -40,7 +40,7 @@
         <pkgArtifactId>jsmpp</pkgArtifactId>
         <pkgVersion>2.1.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.jsmpp
+            !org.jsmpp.examples.*, org.jsmpp
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             org.testng*;resolution:=optional,
